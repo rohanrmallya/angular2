@@ -10,7 +10,7 @@ A Step-By-Step guide to Angular 2, the way I plan to learn it.
 # Links
 
 * [Angular CLI](https://cli.angular.io/)
-* [Basic Starter Kit](https://github.com/scotch-io/angular2-starter-basic)
+* [Basic Starter Kit](https://github.com/angular/quickstart)
   * [Associated Documentation](https://angular.io/docs/ts/latest/quickstart.html)
   
 
