@@ -1,0 +1,22 @@
+{
+  "name": "scotch-project",
+  "version": "1.0.0",
+  "description": "Trying To Learn Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "author": "Rohan Mallya",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.1.4",
+    "typings": "^2.1.0"
+  }
+}
