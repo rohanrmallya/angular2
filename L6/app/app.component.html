@@ -1,0 +1,46 @@
+
+    <!--header-->
+    <header>
+      <nav class = "navbar navbar-inverse">
+        <div class = "navbar-header">
+          <a href="/" class="navbar-brand"> Testing Foo </a>
+        </div>
+      </nav>
+    <main>
+      <div class = "row">
+        <div class = "col-sm-4">
+          <div *ngIf = "show == 1">
+
+              <h1> Students </h1>
+              <ul class="list-group userList" >
+                <li
+                  class="list-group-item"
+                  *ngFor = "let oneUser of userList"
+                  (click) = "changeActive(oneUser)"
+                  [class.active] = "oneUser === activeUser">
+                Name : {{oneUser.name}}<br> Email : {{oneUser.email}}
+                </li>
+
+              </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class = "jumbotron text-center">
+            <div *ngIf = "activeUser">
+              <h1> Hi {{activeUser.name}}! </h1>
+              <h4> eMail : {{activeUser.email}} </h4>
+              <input class = "myForm" [(ngModel)] = "activeUser.name">
+
+            </div>
+
+            <div *ngIf = "!activeUser">
+              <h1> Choose A User </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer text-center">
+      textBurger Creations &copy; 2017
+    </footer>

@@ -1,0 +1,30 @@
+.jumbotron {
+  background:#FFC107;
+}
+
+.navbar-inverse{
+  background:orange;
+  border:none;
+}
+
+.footer{
+  background:#E0E0E0;
+  padding:2%;
+}
+
+.userList li{
+  cursor:pointer;
+}
+
+.active{
+  background:orange;
+  color:white;
+}
+
+.myForm{
+  background:white;
+  border: 0.1px solid orange;
+  font-size:1.5em;
+  width:100%;
+  padding:2%;
+}
