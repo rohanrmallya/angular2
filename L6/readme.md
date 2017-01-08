@@ -76,3 +76,7 @@ The above two lines will repalce `template` and `style`
 ## Extra Reading
 
 All the nomenclature that I follow is from the Angular2 Style Guide. That is the reason my files are named in the fashion that they are. The styleguide is available [here](https://angular.io/styleguide)
+
+----------------------
+
+L7 has Refactoring Part 2. But that is covered under the topic "Making Code more Modular"
