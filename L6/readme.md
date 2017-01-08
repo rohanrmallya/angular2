@@ -36,7 +36,7 @@ import { FormsModule } from '@angular/forms'
 
 After this just populate the `imports` array with FormsModule. Your `imports` array under /@NgComponent must look like this :
 
-```  
+``` 
 imports: [ BrowserModule, FormsModule],
 
 ```

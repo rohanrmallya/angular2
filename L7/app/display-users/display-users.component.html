@@ -1,0 +1,5 @@
+  <div *ngIf = "childActiveUser">
+    <h1> Hi {{childActiveUser.name}}! </h1>
+    <h4> eMail : {{childActiveUser.email}} </h4>
+    <input class = "myForm" [(ngModel)] = "childActiveUser.name">
+</div>
